@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equip="author" content="RAYMUNDO, LYVAMIE S. and ZAPANTA TRICIA NICOLE S.">  
+    <title>PROJECT IN MIDTERM  &amp; VOLUME CONVERTER</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+ 
+       <p class="top-text">Type a value in any of the fields to convert between Cubic Volume Convertion</p>
+       <div class="container">
+         <p><br>Volume Converter</br></p>
+   
+       <div class= "inputContainer">
+         <label for="cubicFeet">CubicFeet</label> <input type="number" placeholder="ft^3" id= "cubicFeet" oninput="convertToOthers('cubicFeet', this.value)" onchange= "convertToOthers(this.id, this.value)">
+       </div>
+   
+       <div class= "inputContainer">
+         <label for="cubicMeters">cubicMeters</label></label> <input type="number" placeholder="m^3" id= "cubicMeters" oninput="convertToOthers ('cubicMeters', this.value)" onchange= "convertToOthers (this.id, this.value)">
+       </div>
+   
+       <div class= "inputContainer">
+         <label for="cubicInches">cubicInches</label> <input type="number" placeholder="in^3" id= "cubicInches" oninput="convertToOthers ('cubicInches', this.value)" onchange= "convertToOthers (this.id, this.value)">
+       </div>
+   
+       <div class= "inputContainer">
+         <label for="cubicCm">CubicCm</label> <input type="number" placeholder="cm^3" id= "cubicCm" oninput="convertToOthers ('cubicCm', this.value)" onchange= "convertToOthers (this.id, this.value)">
+       </div>
+   
+       <div class= "inputContainer">
+         <label for="cubicYards">CubicYards</label> <input type="number" placeholder="yd^3" id= "cubicYards" oninput="convertToOthers ('cubicYards', this.value)" onchange= "convertToOthers (this.id, this.value)">
+       </div>
+   
+       <div class= "inputContainer">
+         <label for="cubicKilometers">CubicKilometers</label> <input type="number" placeholder="km^3" id= "cubicKilometers" oninput="convertToOthers ('cubicKilometers', this.value)" onchange= "convertToOthers (this.id, this.value)">
+       </div>
+   
+       <div class= "inputContainer">
+         <label for="cubicMiles">CubicMiles</label> <input type="number" placeholder="mi^3" id= "cubicMiles" oninput="convertToOthers  ('cubicMiles', this.value)" onchange= "convertToOthers (this.id, this.value)">
+       </div>
+
+    <script src="JS/Converter.js.js"></script>
+  </body>
+</html>
